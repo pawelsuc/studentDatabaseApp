@@ -1,5 +1,10 @@
 public class StudentDatabaseAPp {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+//        Ask how many new users we want to add
+
+
+
+
+//      Create n number of students
     }
 }
