@@ -25,7 +25,6 @@ public class Student {
 
         setStudentID();
 
-        System.out.println(firstName + " " + lastName + " " + gradeYear + " " + studentID);
 
     }
 
@@ -51,7 +50,6 @@ public class Student {
                 break;
             }
         } while (1 != 0);
-        System.out.println("ENROLLED IN: " + courses);
     }
 
     //    View balance
@@ -70,4 +68,19 @@ public class Student {
         viewBalance();
     }
 //    Show status
+//    public String toString() {
+//        return "Name: " +firstName + " " + lastName + "\nCourses Enrolled: " + courses +
+//                "\nBalance: $" + tuitionBalance;
+//    }
+
+    @Override
+    public String toString() {
+        return "Student:" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", gradeYear=" + gradeYear +
+                ", studentID='" + studentID + '\'' +
+                "\nCourses enrolled:" + courses
+                ;
+    }
 }

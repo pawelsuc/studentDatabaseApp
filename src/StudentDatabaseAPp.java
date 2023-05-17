@@ -3,6 +3,7 @@ public class StudentDatabaseAPp {
         Student student = new Student();
         student.enroll();
         student.payTuition();
+        System.out.println(student.toString());
 //        Ask how many new users we want to add
 
 
