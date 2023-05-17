@@ -47,11 +47,12 @@ public class Student {
             if (!course.equals("Q")) {
                 courses = courses + "\n" + course;
                 tuitionBalance = tuitionBalance + costOfCourse;
-            } else {
+            }
+            else {
                 System.out.println("BREAK!");
                 break;
             }
-        } while (1 != 0) ;
+        } while (1 != 0);
         System.out.println("ENROLLED IN: " + courses);
         System.out.println("TUITION BALANCE: " + tuitionBalance);
 
