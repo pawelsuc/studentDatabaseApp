@@ -1,5 +1,5 @@
 # studentDatabaseApp
-Simple email application based on Java
+Simple studentDatabase application based on Java
 
 Scenario: You are a Database Administrator for a university and need to
 create an application to manage student enrollments and balance.
