@@ -67,12 +67,6 @@ public class Student {
         System.out.println("Thank you for your payment of $" + payment);
         viewBalance();
     }
-//    Show status
-//    public String toString() {
-//        return "Name: " +firstName + " " + lastName + "\nCourses Enrolled: " + courses +
-//                "\nBalance: $" + tuitionBalance;
-//    }
-
     @Override
     public String toString() {
         return "Student:" +
